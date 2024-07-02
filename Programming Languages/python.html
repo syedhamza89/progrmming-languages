@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="programming languages list,
+    programming languages for web development,
+    programming languages definition,
+    programming languages and their uses,
+    programming languages types,
+    programming languages logo,
+    programming languages for beginners,
+    programming languages for ai,
+    programming languages to learn in 2024,
+    programming languages icons,
+    programming languages for hacking,
+    programming languages used in cyber security,
+    programming languages ranking 2024,
+    programming languages for game development,
+    programming languages course,
+    programming languages and its types,
+    programming languages are,
+    programming languages as people,
+    programming languages application and interpretation,
+    programming languages and their frameworks">
+
+    <meta name="description"
+        content="Unlock the potential of programming languages in facilitating seamless communication between developers and computers. Visit our website for valuable insights and resources.">
+    <link rel="icon" href="code.png" type="image/x-icon">
+    <title>Python-Tutorials</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+
+        .left {
+            display: flex;
+        }
+
+        nav img {
+            width: 50px;
+            height: 50px;
+            animation-name: ic;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes ic {
+            50% {
+                transform: translateY(-4px);
+            }
+
+            100% {
+                transform: translateY(4px);
+            }
+
+        }
+
+        .left li {
+            list-style-type: none;
+            margin-inline: 20px;
+        }
+
+        .left li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            transition: 0.7s;
+        }
+
+        .left li a:hover {
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+            text-decoration-color: #0050c3;
+            color: antiquewhite;
+        }
+
+        button {
+            padding: 5px;
+            width: 100px;
+            border-radius: 100px;
+            border: 1px solid white;
+            font-size: 15px;
+            font-weight: 600;
+            background-color: #0050c3;
+            color: white;
+            margin-inline: 10px;
+            cursor: pointer;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            text-align: center;
+        }
+
+        .dropdown {
+            display: inline-block;
+            position: relative;
+
+
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #0050c3;
+            width: 110%;
+            padding: 2px;
+            overflow: auto;
+            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+            border-radius: 5px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+
+        }
+
+        .dropdown-content a {
+            display: block;
+            color: white;
+            padding: 5px;
+            text-decoration: none;
+
+        }
+
+        .dropdown-content a:hover {
+            color: #FFFFFF;
+            background-color: #00A4BD;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            text-align: center;
+            transition: 0.7s;
+        }
+
+
+        h3 {
+            color: white;
+            cursor: pointer;
+            margin-top: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: lighter;
+        }
+
+
+        .container {
+            /* border: 2px solid black; */
+            margin: 50px 150px 0px 150px;
+            height: 80vh;
+        }
+
+        h1 {
+            margin-left: 30px;
+            margin-top: 30px;
+            font-size: 40px;
+            font-weight: lighter;
+        }
+
+        hr {
+            margin: 30px;
+        }
+
+        h2 {
+            margin-left: 30px;
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: lighter;
+        }
+
+        p {
+            margin-left: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+
+        ul {
+            margin-left: 70px;
+        }
+
+        ul li {
+            font-size: 20px;
+        }
+
+
+
+        pre,
+        code {
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        footer img{
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            transition: 0.7s;
+        }
+
+        footer img:hover{
+            transform: scale(1.2);
+        }
+
+
+        footer p{
+            margin-top: 100px;
+            margin-left: 70px;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="code.png" alt="Online-Program">
+        <div class="left">
+            <li><a href="/Program.html">Home</a></li>
+
+
+            <!-- Dropdown Part -->
+            <div class="dropdown">
+                <h3>💦Programming Courses</h3>
+                <div class="dropdown-content">
+                    <a href="/python.html">PYTHON</a>
+                    <a href="/python.html">JAVA</a>
+                    <a href="/php.html">PHP</a>
+                </div>
+            </div>
+
+
+
+
+            <li><a href="/contact.html">Contact</a></li>
+
+        </div>
+
+
+        <div class="Right">
+            <button>Search</button>
+            <input type="text" placeholder="Search Your Topics">
+        </div>
+
+
+    </nav>
+
+
+
+
+    <div class="container">
+        <main>
+            <h1>🐍Python Introduction</h1>
+            <hr>
+
+            <h2>What is Python?</h2>
+            <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+
+            <ul>
+                <li>web development (server-side)</li>
+            </ul>
+            <ul>
+                <li>software development</li>
+            </ul>
+            <ul>
+                <li>mathematics</li>
+            </ul>
+            <ul>
+                <li>system scripting</li>
+            </ul>
+
+        </main>
+
+        <main>
+            <section>
+                <h2>Basic Syntax</h2>
+                <p>Python's syntax is clean and easy to understand. Here is a simple example that prints "Hello, World!"
+                    to the console:</p>
+                <pre><code>print("Hello, World!")</code></pre>
+            </section>
+            <section>
+                <h2>Variables and Data Types</h2>
+                <p>In Python, you don't need to declare the type of a variable explicitly. The type is inferred from the
+                    value assigned to it.</p>
+                <pre><code># Integer
+    x = 10
+    print(type(x))  # Output: &lt;class 'int'&gt;
+    
+    # Float
+    y = 10.5
+    print(type(y))  # Output: &lt;class 'float'&gt;
+    
+    # String
+    name = "Python"
+    print(type(name))  # Output: &lt;class 'str'&gt;</code></pre>
+            </section>
+            <section>
+                <h2>Lists</h2>
+                <p>Lists are one of the most versatile data structures in Python. They can store items of different
+                    types.</p>
+                <pre><code>fruits = ["apple", "banana", "cherry"]
+    print(fruits)  # Output: ['apple', 'banana', 'cherry']
+    
+    # Adding an item to the list
+    fruits.append("orange")
+    print(fruits)  # Output: ['apple', 'banana', 'cherry', 'orange']</code></pre>
+            </section>
+            <section>
+                <h2>Loops</h2>
+                <p>Loops are used to iterate over a sequence (like a list, tuple, dictionary, set, or string).</p>
+                <pre><code># For loop
+    for fruit in fruits:
+        print(fruit)</code></pre>
+            </section>
+        </main>
+        <footer>
+            <p>Follow us on social media:</p>
+            <ul class="social-links">
+                <a href="https://www.facebook.com" target="_blank"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB9D_iMdhr88W6HL_-0-dBJxJaU6eUxraD3w&s"
+                        alt="facebook"></a>
+                <a href="https://www.twitter.com" target="_blank"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvHSe34_3MIrkmQMzlY2Anzurg0OSSFS0TMg&s"
+                        alt="twitter"></a>
+                <a href="https://www.Instagram.com" target="_blank"><img
+                        src="https://img.freepik.com/free-psd/instagram-application-logo_23-2151544102.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1718668800&semt=ais_user"
+                        alt="Instagram"></a>
+            </ul>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
